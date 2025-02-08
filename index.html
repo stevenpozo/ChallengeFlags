@@ -4,22 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style_index.css">
     <title>Home - Categorías</title>
 </head>
 
 <body>
     <div class="container">
         <h1>Categorías</h1>
-        <ul class="categories">
-            <li><a href="osint.html">OSINT</a></li>
-            <li><a href="proximamente.html">Hacking Web</a></li>
-            <li><a href="proximamente.html">Reversing</a></li>
-            <li><a href="proximamente.html">Análisis de tráfico</a></li>
-            <li><a href="proximamente.html">Criptografía y estenografía</a></li>
-            <li><a href="proximamente.html">Análisis de memoria</a></li>
-        </ul>
+        <div class="categories-grid">
+            <div class="category-card" onclick="location.href='pages/osint.html'">
+                <i class="icon fa fa-search"></i>
+                <p>OSINT</p>
+            </div>
+            <div class="category-card" onclick="location.href='pages/proximamente.html'">
+                <i class="icon fa fa-globe"></i>
+                <p>Hacking Web</p>
+            </div>
+            <div class="category-card" onclick="location.href='pages/proximamente.html'">
+                <i class="icon fa fa-code"></i>
+                <p>Reversing</p>
+            </div>
+            <div class="category-card" onclick="location.href='pages/proximamente.html'">
+                <i class="icon fa fa-network-wired"></i>
+                <p>Análisis de tráfico</p>
+            </div>
+            <div class="category-card" onclick="location.href='pages/proximamente.html'">
+                <i class="icon fa fa-lock"></i>
+                <p>Criptografía y estenografía</p>
+            </div>
+            <div class="category-card" onclick="location.href='pages/proximamente.html'">
+                <i class="icon fa fa-memory"></i>
+                <p>Análisis de memoria</p>
+            </div>
+        </div>
     </div>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
