@@ -86,3 +86,11 @@ h1 {
         grid-template-columns: 1fr;
     }
 }
+
+a.category-card {
+    text-decoration: none;
+    display: block;
+    /* Para comportarse como un div */
+    color: inherit;
+    /* Mantener el color del texto */
+}
